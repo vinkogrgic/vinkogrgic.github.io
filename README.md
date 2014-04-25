@@ -8,4 +8,5 @@ This is my personal web page where I will be starting from scratch, and adding c
 Read more about GitHub pages here: https://pages.github.com/
 
 Cheers!
+
 Vinko
