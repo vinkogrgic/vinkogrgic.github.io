@@ -1,4 +1,4 @@
-/*! Bootstrap theme template custom CSS */
+/*! ------ Bootstrap theme template custom CSS ------ */
 body {
   padding-top: 70px;
   padding-bottom: 30px;
@@ -14,13 +14,69 @@ body {
   margin: 5px 0;
 }
 
-/*! Vinko's FounderInvest.com custom CSS */
+/*! ------ More page marketing layout custom CSS ------ */
 
+/* MARKETING */
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* FEATURETTES */
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* CUSTOM RESPONSIVE CSS */
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+/*! ------ Vinko custom CSS ------ */
+/* Vertically align icons to use in buttons */
 .icon-vertical-fix {
     position: relative;
     top: 3px;
 }
 
+/* Invert colour design of deafult button for navbar */
 .btn-navbar-inverse {
     color: #999;
     background-color: transparent;
