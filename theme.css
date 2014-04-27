@@ -1,3 +1,4 @@
+/*! Bootstrap theme template custom CSS */
 body {
   padding-top: 70px;
   padding-bottom: 30px;
@@ -11,4 +12,27 @@ body {
 
 .theme-showcase > p > .btn {
   margin: 5px 0;
+}
+
+/*! Vinko's FounderInvest.com custom CSS */
+
+.icon-vertical-fix {
+    position: relative;
+    top: 3px;
+}
+
+.btn-navbar-inverse {
+    color: #999;
+    background-color: transparent;
+    border-color: #080808;
+}
+
+.btn-navbar-inverse:hover,
+.btn-navbar-inverse:focus,
+.btn-navbar-inverse:active,
+.btn-navbar-inverse.active,
+.open .dropdown-toggle.btn-navbar-inverse {
+	color: #fff;
+    background-color: #222;
+    border-color: #080808;
 }
